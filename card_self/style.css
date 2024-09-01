@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 15px;
+    font-style: normal;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    overflow: hidden;
+    padding: 155px;
+}
+
+.card{
+    background-color: white;
+    width: 260px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.img{
+    padding: 5px;
+    object-fit: cover;
+}
+
+.card img{
+    border-radius: 10px;
+    width: 250px;
+    height: 152.45px;
+}
+
+.categories{
+    padding: 0 28px 0 14px;
+}
+
+.categories span{
+    border: 1px solid rgb(190, 185, 185);
+    color: rgb(86, 84, 84);
+    border-radius: 8px;
+    padding: 0 5px;
+    font-size: 11px;
+    
+}
+
+.content{
+    padding: 10px 14px;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.button{
+    text-align: center;
+    padding:10px;
+}
+
+.button button {
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: rgb(216, 236, 253);
+    color: rgb(14, 150, 234);
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+}
